@@ -2,7 +2,7 @@ package Task1;
 
 import java.util.Scanner;
 
-public class QuestionThree {
+public class ReverseNumber {
 	public static void main(String[] args) {
 		    try (Scanner obj = new Scanner(System.in)) {
 				System.out.println("Reversing a number using while loop");
