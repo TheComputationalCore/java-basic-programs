@@ -1,4 +1,4 @@
-# Java Basics: Control Flow (Task 1)
+# Java Basics: Control Flow 
 
 This repository contains a collection of beginner‑friendly Java programs focused on **control flow**, including branching and looping constructs. Each program is self‑contained and demonstrates a specific logic-building exercise.
 
