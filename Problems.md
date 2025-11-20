@@ -1,6 +1,6 @@
 # Branching & Looping Statements Problems
 
-This file lists the programming exercises focused on branching and looping statements in Java. The solutions to these problems are implemented in the Java files in this repository (`QuestionOne.java` to `QuestionSixA.java`).
+This file lists the programming exercises focused on branching and looping statements in Java. The solutions to these problems are implemented in the Java files in this repository.
 
 ## Problem Statement
 
