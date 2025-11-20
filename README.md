@@ -1,104 +1,97 @@
-# 📘 Java Basics: Control Flow
+# Java OOP Fundamentals
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Java Build](https://github.com/TheComputationalCore/java-oop-fundamentals/actions/workflows/java-build.yml/badge.svg)
 
-
-This repository contains a collection of beginner-friendly Java programs focused on **control flow**, including looping, conditional statements, number operations, and pattern generation. Each file is a standalone logic exercise designed to build foundational programming skills.
-
-## 📌 Overview
-
-This project includes simple yet foundational Java programs that cover:
-
-- Printing numeric ranges  
-- Checking number signs  
-- Reversing integers  
-- Comparing numbers  
-- Applying conditional logic (discount calculation)  
-- Generating patterns with nested loops  
-
-All source files are located inside:
-
-```
-/task1
-```
+This repository contains Java programs demonstrating fundamental Object-Oriented Programming (OOP) concepts such as encapsulation, inheritance, and basic class design. It includes four tasks (1.1 to 1.4), each illustrating a different OOP principle.
 
 ## 📁 Project Structure
-
 ```
-java-basics-control-flow/
-├── task1/
-│   ├── CheckNumberSign.java
-│   ├── DiscountCalculator.java
-│   ├── FindSmallestOfThree.java
-│   ├── NumberPatternGenerator.java
-│   ├── NumberPatternGeneratorAlt.java
-│   ├── PrintNumRange.java
-│   ├── ReverseNumber.java
-│────── Problems.md
-├── screenshots/
-│   ├── discountcal.png
-│   ├── numcheck.png
-│   ├── pattern.png
-│   ├── printnumrange.png
-│   ├── reversenum.png
-│   └── smallnum.png
-└── README.md
+src/
+├── Account.java
+├── Person.java
+├── Person_2.java
+├── Product.java
+├── XYZ.java
+└── screenshots/
+    ├── 1.1.png
+    ├── 1.2.a.png
+    ├── 1.2.b.png
+    ├── 1.3.png
+    └── 1.4.png
 ```
 
-## 🖼️ Program Output Screenshots
+## 📝 Task Overviews
 
-### 1️⃣ Print Number Range  
-![Print Number Range](screenshots/printnumrange.png)
+### **Task 1.1 — Person Class**
+- Implements a `Person` class with `name` and `age`.
+- Default age is **18**.
+- Includes constructor + method to display info.
 
-### 2️⃣ Check Number Sign  
-![Check Number Sign](screenshots/numcheck.png)
+▶️ **Screenshot:**  
+![1.1](screenshots/1.1.png)
 
-### 3️⃣ Reverse Number  
-![Reverse Number](screenshots/reversenum.png)
+---
 
-### 4️⃣ Find Smallest of Three  
-![Smallest Number](screenshots/smallnum.png)
+### **Task 1.2 — Product Class**
+- Represents products with `pid`, `price`, and `quantity`.
+- `ProductMain`:
+  - Accepts **5 products**.
+  - Finds **highest price product**.
+  - Calculates **total expenditure**.
 
-### 5️⃣ Discount Calculator  
-![Discount](screenshots/discountcal.png)
+▶️ **Screenshots:**  
+![1.2a](screenshots/1.2.a.png)
+![1.2b](screenshots/1.2.b.png)
 
-### 6️⃣ Number Pattern  
-![Pattern](screenshots/pattern.png)
+---
+
+### **Task 1.3 — Account Class**
+- Implements `deposit`, `withdraw`, and `display` methods.
+- Includes default + parameterized constructors.
+
+▶️ **Screenshot:**  
+![1.3](screenshots/1.3.png)
+
+---
+
+### **Task 1.4 — Inheritance (Person → Employee)**
+- `Employee` extends `Person`.
+- Adds `employeeID` and `salary`.
+- Uses `super()` for parent initialization.
+
+▶️ **Screenshot:**  
+![1.4](screenshots/1.4.png)
+
+---
 
 ## ▶️ Running the Programs
 
-1. Navigate to the directory:
-
-```
-cd task1
-```
-
-2. Compile the program:
-
-```
-javac FileName.java
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/TheComputationalCore/java-oop-fundamentals.git
+cd java-oop-fundamentals/src
 ```
 
-3. Run the program:
-
-```
-java FileName
-```
-
-Example:
-
-```
-javac PrintNumRange.java
-java PrintNumRange
+### **2. Compile**
+```bash
+javac *.java
 ```
 
-## 🧰 Requirements
+### **3. Run (examples)**
+```bash
+java Person
+java Product
+java Account
+java XYZ
+```
 
-- JDK 8 or above  
-- Any IDE or terminal capable of running Java  
+---
 
-## 🙋 Contact
+## 📦 Requirements
+- Java JDK **8 or higher**
+- Any terminal or Java IDE
 
-**Dinesh Chandra — TheComputationalCore**  
-GitHub: https://github.com/TheComputationalCore  
-YouTube: https://www.youtube.com/@TheComputationalCore
+---
+
+## 📄 License  
+This project is licensed under the MIT License.
