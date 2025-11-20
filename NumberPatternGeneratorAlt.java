@@ -1,8 +1,8 @@
-package Task1;
+package java-basic-programs;
 
 import java.util.Scanner;
 
-public class QuestionSixA {
+public class NumberPatternGeneratorAlt {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int f, i, j;
