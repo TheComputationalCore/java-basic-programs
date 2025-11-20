@@ -1,131 +1,113 @@
-# Task 1
+# Java Basics: Control Flow (Task 1)
 
-## Overview
+This repository contains a collection of beginner‑friendly Java programs focused on **control flow**, including branching and looping constructs. Each program is self‑contained and demonstrates a specific logic-building exercise.
 
-This repository, **Task 1**, contains a collection of Java programs demonstrating the use of branching and looping statements. These programs solve various problems such as printing number sequences, reversing numbers, checking number signs, finding the smallest among three numbers, calculating discounts, and printing number patterns.
+---
 
-## Prerequisites
+## 📌 Overview
 
-To run the programs in this repository, ensure you have the following installed:
+This project includes simple yet foundational Java programs that cover:
 
-- **Java Development Kit (JDK)**: Version 8 or higher
-- A code editor or IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code)
-- Git (optional, for cloning the repository)
+- Printing number ranges  
+- Determining number signs  
+- Reversing numbers  
+- Finding the smallest of three numbers  
+- Calculating discounts  
+- Printing numeric patterns  
 
-## Setup Instructions
+These exercises form the basis for mastering Java control flow and problem‑solving fundamentals.
 
-1. **Clone the Repository**:
+---
 
-   ```bash
-   git clone https://github.com/thesoulseizure/task1.git
-   ```
+## 🛠 Prerequisites
 
-2. **Navigate to the Repository**:
+Ensure you have:
 
-   ```bash
-   cd task1
-   ```
+- **Java Development Kit (JDK)** — version 8 or later  
+- A Java‑compatible editor (IntelliJ IDEA, VS Code, Eclipse, etc.)
 
-3. **Compile and Run**:
+---
 
-   - Compile each Java file using:
+## 🚀 How to Run the Programs
 
-     ```bash
-     javac Filename.java
-     ```
-
-   - Run the compiled program:
-
-     ```bash
-     java Filename
-     ```
-
-### Run Example
-
-To run the `QuestionOne.java` program:
+1. **Clone the repository**
 
 ```bash
-javac QuestionOne.java
-java QuestionOne
+git clone https://github.com/TheComputationalCore/java-basics-control-flow-task1.git
+cd java-basics-control-flow-task1/task1
 ```
 
-This will print numbers from 10 to 50.
+2. **Compile any program**
 
-## Project Structure
+```bash
+javac FileName.java
+```
 
-The repository is organized as follows:
+3. **Run the program**
+
+```bash
+java FileName
+```
+
+Replace `FileName` with the program you want to execute.
+
+---
+
+## 📁 Project Structure
 
 ```
 task1/
-├── QuestionOne.java
-├── QuestionTwo.java
-├── QuestionThree.java
-├── QuestionFour.java
-├── QuestionFive.java
-├── QuestionSix.java
-├── QuestionSixA.java
-├── README.md
+├── CheckNumberSign.java
+├── DiscountCalculator.java
+├── FindSmallestOfThree.java
+├── NumberPatternGenerator.java
+├── NumberPatternGeneratorAlt.java
+├── PrintNumRange.java
+├── ReverseNumber.java
+├── Problems.md
+└── README.md
 ```
 
-All Java programs are located in the root directory.
+---
 
-## Programs Included
+## 📚 Program Descriptions
 
-This repository contains the following Java programs:
+### 🔹 PrintNumRange.java  
+Prints numbers from **10 to 50** using a loop.
 
-1. **QuestionOne.java**: Prints numbers from 10 to 50 using a for loop.
-   - **Example Output**:
-     ```
-     10
-     11
-     ...
-     50
-     ```
+### 🔹 CheckNumberSign.java  
+Checks if a number is **positive** or **negative**.
 
-2. **QuestionTwo.java**: Determines if a given number is positive or negative.
-   - **Example Input**: `123`
-   - **Example Output**: `Positive`
-   - **Example Input**: `-100`
-   - **Example Output**: `Negative`
+### 🔹 ReverseNumber.java  
+Reverses the digits of a number (e.g., 876 → 678).
 
-3. **QuestionThree.java**: Reverses a given number using loops (e.g., 876 to 678).
-   - **Example Input**: `876`
-   - **Example Output**: `Reversed number: 678`
+### 🔹 FindSmallestOfThree.java  
+Determines the **smallest** among three numbers.
 
-4. **QuestionFour.java**: Finds the smallest among three numbers.
-   - **Example Input**: `10 5 8`
-   - **Example Output**: `Smallest number: 5`
+### 🔹 DiscountCalculator.java  
+Calculates discounted price based on purchase amount.
 
-5. **QuestionFive.java**: Calculates the final payable amount after applying discounts based on the purchase amount.
-   - **Example Input**: `1200`
-   - **Example Output**: `Final payable amount: 960.00`
-   - **Discount Rules**:
-     - < 500: No discount
-     - 500–1000: 10% discount
-     - > 1000: 20% discount
+**Discount Rules:**  
+- `< 500` — No discount  
+- `500–1000` — 10% discount  
+- `> 1000` — 20% discount  
 
-6. **QuestionSix.java** and **QuestionSixA.java**: Print a specific number pattern using nested loops. `QuestionSixA.java` may be an alternative implementation.
-   - **Example Output**:
-     ```
-     5 5 5 5 5
-     5 4 4 4 4
-     5 4 3 3 3
-     5 4 3 2 2
-     5 4 3 2 1
-     ```
+### 🔹 NumberPatternGenerator.java  
+Prints a numeric pattern using nested loops.
 
-## Usage
+### 🔹 NumberPatternGeneratorAlt.java  
+Alternate implementation of the same pattern.
 
-Each program is self-contained and can be run independently. Input values are hardcoded or prompted via the console, as specified in the problem statements. Refer to individual files for specific details on inputs and outputs.
+---
 
-## Contributing
+## 🎯 Usage Notes
 
-Contributions are welcome! If you have suggestions or improvements:
+- Each program runs independently.  
+- Inputs may be hardcoded or prompted in the console.  
+- Review each file for specific behavior.
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit (`git commit -m 'Add feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a pull request.
+---
 
-
+Created with care by **Dinesh Chandra — TheComputationalCore**  
+GitHub: https://github.com/TheComputationalCore  
+YouTube: https://www.youtube.com/@TheComputationalCore  
