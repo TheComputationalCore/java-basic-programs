@@ -1,91 +1,101 @@
-# Java Basics: Control Flow
+# 📘 Java Basics: Control Flow
 
-This repository contains a collection of beginner-friendly Java programs focused on **control flow**, including branching and looping constructs. Each program is self-contained and demonstrates a specific logic-building exercise.
+This repository contains a collection of beginner-friendly Java programs focused on **control flow**, including looping, conditional statements, number operations, and pattern generation. Each file is a standalone logic exercise designed to build foundational programming skills.
 
----
-
-## 🚀 Overview
+## 📌 Overview
 
 This project includes simple yet foundational Java programs that cover:
 
-- Printing number ranges  
-- Checking if a number is positive or negative  
-- Reversing a number  
-- Finding the smallest of three numbers  
-- Calculating discounts  
-- Generating number patterns  
+- Printing numeric ranges  
+- Checking number signs  
+- Reversing integers  
+- Comparing numbers  
+- Applying conditional logic (discount calculation)  
+- Generating patterns with nested loops  
 
-Each program is placed inside the `task1` folder and is beginner‑friendly.
-
----
-
-## 📂 Project Structure
+All source files are located inside:
 
 ```
-task1/
-├── CheckNumberSign.java
-├── DiscountCalculator.java
-├── FindSmallestOfThree.java
-├── NumberPatternGenerator.java
-├── NumberPatternGeneratorAlt.java
-├── PrintNumRange.java
-├── ReverseNumber.java
-├── Problems.md
+/task1
+```
+
+## 📁 Project Structure
+
+```
+java-basics-control-flow/
+├── task1/
+│   ├── CheckNumberSign.java
+│   ├── DiscountCalculator.java
+│   ├── FindSmallestOfThree.java
+│   ├── NumberPatternGenerator.java
+│   ├── NumberPatternGeneratorAlt.java
+│   ├── PrintNumRange.java
+│   ├── ReverseNumber.java
+│────── Problems.md
+├── screenshots/
+│   ├── discountcal.png
+│   ├── numcheck.png
+│   ├── pattern.png
+│   ├── printnumrange.png
+│   ├── reversenum.png
+│   └── smallnum.png
 └── README.md
 ```
-
----
 
 ## 🖼️ Program Output Screenshots
 
 ### 1️⃣ Print Number Range  
-![PrintNumRange](printnumrange.png)
+![Print Number Range](screenshots/printnumrange.png)
 
 ### 2️⃣ Check Number Sign  
-![Check Number Sign](numcheck.png)
+![Check Number Sign](screenshots/numcheck.png)
 
 ### 3️⃣ Reverse Number  
-![Reverse Number](reversenum.png)
+![Reverse Number](screenshots/reversenum.png)
 
 ### 4️⃣ Find Smallest of Three  
-![Smallest Number](smallnum.png)
+![Smallest Number](screenshots/smallnum.png)
 
 ### 5️⃣ Discount Calculator  
-![Discount](discountcal.png)
+![Discount](screenshots/discountcal.png)
 
 ### 6️⃣ Number Pattern  
-![Pattern](pattern.png)
-
----
+![Pattern](screenshots/pattern.png)
 
 ## ▶️ Running the Programs
 
-### **Prerequisites**
-- Java Development Kit (JDK) 8 or higher  
-- Any IDE or terminal to execute Java files  
+1. Navigate to the directory:
 
-### **Compile**
-```bash
-javac Filename.java
+```
+cd task1
 ```
 
-### **Run**
-```bash
-java Filename
+2. Compile the program:
+
+```
+javac FileName.java
 ```
 
-Each program prompts the user for input where necessary and displays results accordingly.
+3. Run the program:
 
----
+```
+java FileName
+```
 
-## 📘 Problems Reference
+Example:
 
-All problem statements are listed in the `Problems.md` file inside the repository.
+```
+javac PrintNumRange.java
+java PrintNumRange
+```
 
----
+## 🧰 Requirements
 
-## 📩 Contact
+- JDK 8 or above  
+- Any IDE or terminal capable of running Java  
+
+## 🙋 Contact
 
 **Dinesh Chandra — TheComputationalCore**  
-🔗 GitHub: https://github.com/TheComputationalCore  
-🔗 YouTube: https://www.youtube.com/@TheComputationalCore
+GitHub: https://github.com/TheComputationalCore  
+YouTube: https://www.youtube.com/@TheComputationalCore
